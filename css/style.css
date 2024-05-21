@@ -1,0 +1,39 @@
+body {
+    --bs-body-font-family: Inter;
+    --bs-body-line-height: 1.4;
+    background-color: rgb(185, 209, 224);
+    margin: 2.5%;
+    min-width: 650px;
+}
+
+#temperatureTable {
+    border: solid black 1.5px;
+}
+
+td{
+    text-align: center;
+}
+
+.title{
+    font-family: 'HarmonyOS Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    border: solid black 3px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: rgb(217, 226, 232);
+}
+
+#risultato{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#frontTextLabel{
+    margin-bottom: 20px;
+}
